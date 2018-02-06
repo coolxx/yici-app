@@ -5,7 +5,7 @@ $(function(){
         afterLoad:function(Link,index){
             switch (index){
                 case 1:
-                    $('.zg-main1 b').animate({'marginTop':'0'},800);
+                    $('.zg-main1 b').animate({'backgroundPosition':'center'},800);
                     $('.download').animate({'marginLeft':'0.4rem'},800);
                     break;
                 case 2:
