@@ -25,20 +25,20 @@ $(function(){
         onLeave:function (link,index) {
             switch (index){
                 case 1:
-                    $('.zg-main1 b').animate({'marginTop':'-1rem'},0);
-                    $('.download').animate({'marginLeft':'-0.4rem'},0);
+                    $('.zg-main1 b').animate({'marginTop':'-1rem'},200);
+                    $('.download').animate({'marginLeft':'-0.4rem'},200);
                     break;
                 case 2:
-                    $('.zg-main2 b').animate({'marginTop':'-1rem'},0);
-                    $('.download').animate({'marginLeft':'1rem'},0);
+                    $('.zg-main2 b').animate({'marginTop':'-1rem'},200);
+                    $('.download').animate({'marginLeft':'1rem'},200);
                     break;
                 case 3:
-                    $('.zg-main3 b').animate({'marginTop':'-1rem'},0);
-                    $('.download').animate({'marginLeft':'-0.4rem'},0);
+                    $('.zg-main3 b').animate({'marginTop':'-1rem'},200);
+                    $('.download').animate({'marginLeft':'-0.4rem'},200);
                     break;
                 case 4:
-                    $('.zg-main4 b').animate({'marginTop':'-1rem'},0);
-                    $('.download').animate({'marginLeft':'-0.4rem'},0);
+                    $('.zg-main4 b').animate({'marginTop':'-1rem'},200);
+                    $('.download').animate({'marginLeft':'1rem'},200);
                     break;
             }
         }
