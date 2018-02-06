@@ -1,0 +1,115 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.2rem;height:100%;}
+body,p,ul,ol,dl,dd,dt,p,h2,h3,h4,h5,h6{ margin:0; padding:0; font-size:0.14rem;text-indent:0;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{ *zoom:1; }
+.clear:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+
+
+.main{
+    width: 7.2rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section1{
+    background: url("../images/main1.jpg") center top;
+    background-size: 100%;
+}
+.section2{
+    background: url("../images/main2.jpg") center top;
+    background-size: 100%;
+}
+.section3{
+    background: url("../images/main3.jpg") center top;
+    background-size: 100%;
+}
+.section4{
+    background: url("../images/main4.jpg") center top;
+    background-size: 100%;
+}
+.zg-main1 b{
+    display: block;
+    height: 1.97rem;
+    text-indent: -999rem;
+    background: url("../images/m1.png") no-repeat center;
+    -webkit-background-size: 6.04rem;
+    background-size: 6.04rem;
+}
+.zg-main1 .phone{
+    display: block;
+    margin: 0.32rem 0 0 0.73rem;
+    width:4.12rem;
+}
+.download{
+    overflow: hidden;
+    margin-left:0.4rem;
+    margin-top:0.32rem;
+}
+.download a{
+    float: left;
+    margin-left:0.6rem;
+}
+.download a img{
+    display: block;
+    width:2.3rem;
+}
+.lead{
+    display: block;
+    width:0.6rem;
+    margin: 0.35rem auto 0;
+    animation:run 1s alternate infinite  linear;
+}
+@keyframes run{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.zg-main2 b{
+    display: block;
+    height: 1.97rem;
+    text-indent: -999rem;
+    background: url("../images/m6.png") no-repeat center;
+    -webkit-background-size: 4.81rem;
+    background-size: 4.81rem;
+}
+.zg-main2 .phone{
+    display: block;
+    margin: 0.4rem auto 0;
+    width:2.53rem;
+}
+.zg-main3 b{
+    display: block;
+    height: 2.07rem;
+    text-indent: -999rem;
+    background: url("../images/m11.png") no-repeat center;
+    -webkit-background-size: 5.69rem;
+    background-size: 5.69rem;
+}
+.zg-main3 .phone{
+    display: block;
+    margin: 0.3rem auto 0;
+    width:2.53rem;
+}
+.zg-main4 b{
+    display: block;
+    height: 1.97rem;
+    text-indent: -999rem;
+    background: url("../images/m15.png") no-repeat center;
+    -webkit-background-size: 6.37rem;
+    background-size: 6.37rem;
+}
+.zg-main4 .phone{
+    display: block;
+    margin: 0.4rem auto 0;
+    width:2.53rem;
+}

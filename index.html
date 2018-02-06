@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="gb2312">
+    <title>Document</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.fullpage.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        function pgScale(){
+            var deviceWidth = document.documentElement.clientWidth;
+            if(deviceWidth > 720) deviceWidth = 720;
+            document.documentElement.style.fontSize = deviceWidth / 7.2 + 'px';
+        }
+        pgScale();
+        window.onresize=pgScale;
+    </script>
+</head>
+<body>
+<div id="dowebok">
+    <div class="section section1">
+        <div class="zg-main1 main">
+            <b>更易学的考研单词</b>
+            <img class="phone" src="images/m2.png" alt="">
+            <p class="download">
+                <a href="">
+                    <img src="images/m3.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/m4.png" alt="">
+                </a>
+            </p>
+            <img class="lead" src="images/m5.png" alt="">
+        </div>
+    </div>
+    <div class="section section2">
+        <div class="zg-main2 main">
+            <b>阅读学词在实践中学习</b>
+            <img class="phone" src="images/m7.png" alt="">
+            <p class="download">
+                <a href="">
+                    <img src="images/m8.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/m9.png" alt="">
+                </a>
+            </p>
+            <img class="lead" src="images/m10.png" alt="">
+        </div>
+    </div>
+    <div class="section section3">
+        <div class="zg-main3 main">
+            <b>免费微课辅助学习更轻松</b>
+            <img class="phone" src="images/m12.png" alt="">
+            <p class="download">
+                <a href="">
+                    <img src="images/m13.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/m14.png" alt="">
+                </a>
+            </p>
+            <img class="lead" src="images/m10.png" alt="">
+        </div>
+    </div>
+    <div class="section section4">
+        <div class="zg-main4 main">
+            <b>词汇测试知己才能百战百胜</b>
+            <img class="phone" src="images/m16.png" alt="">
+            <p class="download">
+                <a href="">
+                    <img src="images/m8.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/m9.png" alt="">
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
