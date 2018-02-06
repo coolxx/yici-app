@@ -65,6 +65,7 @@ table{border-collapse:collapse;border-spacing:0;}
     width:0.6rem;
     margin: 0.35rem auto 0;
     animation:run 1s alternate infinite  linear;
+    padding-bottom: 0.1rem
 }
 @keyframes run{
     0%{
